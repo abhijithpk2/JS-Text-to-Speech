@@ -1,0 +1,18 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    background-color: darkgray;
+}
+.title{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 5%;
+}
+.main-box{
+    width: 100px;
+    height: 150px;
+    border: solid 1px;
+    align-items: center;
+}
