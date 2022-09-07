@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text to Speech</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="title">
-        <h2>PREVIEW</h2>
+      <h2>PREVIEW</h2>
     </div>
-    <div class="main-box"></div>
-    
-</body>
+    <div class="main-box">
+      <h2>Text To Speech</h2>
+      <div class="label-1nd">
+        <label>Enter Text</label>
+        <br/>
+        <textarea rows="5" cols="50"></textarea>
+      </div>
+
+      <div class="label-2nd">
+        <label id="voice-label">Select Voice</label>
+        <br />
+        <select name="" id="voice">
+          <option value="">Google English</option>
+          <option value="">Google Malayalam</option>
+          <option value="">Google Tamil</option>
+          <option value="">Google Hindi</option>
+          <option value="">Google Punjabi</option>
+        </select>
+      </div>
+      <button class="button">Start</button>
+    </div>
+  </body>
 </html>
